@@ -11,7 +11,7 @@ INSTANCE_CONNECTION_NAME = os.getenv("INSTANCE_CONNECTION_NAME")
 
 @app.get("/")
 def root():
-    return {"message": "CI/CD funcionando"}
+    return {"message": "CI/CD funcionando, top demais!"}
 
 @app.get("/db")
 def db_check():
